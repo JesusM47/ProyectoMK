@@ -1,0 +1,34 @@
+@import "../utilidades/mixin";
+@media (max-width:767px) {
+    #imglog {
+        /* pantalla celular */
+        @include medidas (100%, 130px);
+    }
+    #notimage {
+        @include medidas(50%, 250px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1194px) {
+    #imglog {
+        /* Pantalla tablet */
+        @include medidas (100%, 180px);
+    }
+    #notimage {
+        @include medidas (35%, 240px);
+    }
+    header nav ul {
+        gap: 28px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1195px) {
+    #imglog {
+        /* pantalla de grande */
+        @include medidas (50%, 200px);
+    }
+    #notimage {
+        @include medidas (25%, 300px);
+    }
+}
