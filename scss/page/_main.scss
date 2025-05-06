@@ -1,0 +1,49 @@
+header nav ul {
+    color: $color-textos;
+    display: flex;
+    padding-left: 15px;
+    text-decoration: none;
+    gap: 5%;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: normal;
+    font-family: "Nunito", sans-serif;
+    text-shadow: 10px 5px 8px #f800c2;
+}
+
+p {
+    // text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    text-justify: inherit;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 4 rem;
+    color: $color-textos;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 2rem;
+    width: clamp(10vw, 100%, 100vw);
+}
+
+h3 {
+    margin-top: 4 rem;
+    color: $color-textos;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 2rem;
+    width: clamp(10vw, 100%, 100vw);
+}
+
+h2 {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+h2:link {
+    color: aqua;
+    text-decoration-color: hotpink;
+}

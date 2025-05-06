@@ -1,0 +1,30 @@
+table tbody tr td {
+    font-size: large;
+    color: $color-textos;
+    font-weight: bold;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table thead tr th img {
+    margin-top: 5rem;
+    margin-left: 3rem;
+    border-radius: 10%;
+}
+
+form {
+    background-color: #F2ACB8;
+}
+
+form label {
+    color: $color-textos;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+textarea {
+    resize: none;
+    width: 90%;
+    height: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,34 @@
+@import "base/reset";
+@import "utilidades/imag";
+@import "page/mq";
+@import "abstracts/variables";
+@import "page/main";
+@import "page/text";
+button {
+    padding: 17px 40px;
+    border-radius: 25px;
+    background-color: $color-textos;
+    font-size: 15px;
+    border: 0;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
