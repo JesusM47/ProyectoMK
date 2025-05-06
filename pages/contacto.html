@@ -16,7 +16,9 @@
 
 <body>
     <header>
-        <div align="center"><img href="index.html" id="imglog" src="../img/logop.jpg"></div>
+        <div align="center">
+            <a href="../index.html"><img id="imglog" src="../img/logop.jpg"></a>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-padding-x-100px">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,69 +52,40 @@
         <h1 align="center">Contacto</h1><br>
     </header>
 
-    <!-- Formularios -->
+    <div class="form-container">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label class="form-label">Nombre/s</label>
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Numero Telefonico</label>
+                <input type="number" class="form-control" placeholder="01-800-45854">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Direccion del servicio</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
 
-    <!-- <form action="/submit" method="post"> -->
-    <!-- Etiqueta contenedora-->
-    <!-- <label for="">Completa el formulario</label><br><br>
-
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" name="nombre" id="nombre"><br><br><br>
-
-        <label for="fecha">Fecha Cita:</label><br><br>
-        <input type="date" name="fecha" id="fecha"><br><br><br>
-
-        <label for="opcion">Tipo de servicio:</label><br><br>
-        <input type="checkbox">
-        <label for="">Maquillaje de dia</label><br>
-        <input type="checkbox">
-        <label for="">Maquillaje de noche</label><br>
-        <input type="checkbox">
-        <label for="">Maquillaje de boda</label><br>
-        <input type="checkbox">
-        <label for="">Peinado</label><br><br><br>
-
-        <label for="mensaje">Comentarios:</label><br>
-        <textarea name="mensaje" id="mensaje"></textarea><br><br>
-
-
-        <button type="submit">ENVIAR</button>
-
-    </form> -->
-
-    <form class="row g-3">
-        <div class="col-md-6">
-            <label class="form-label">Nombre/s</label>
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
-        </div>
-        <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Numero Telefonico</label>
-            <input type="number" class="form-control" placeholder="01-800-45854">
-        </div>
-        <div class="col-12">
-            <label for="inputAddress" class="form-label">Direccion del servicio</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-
-        <div>
-
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
-                <label class="form-check-label" for="radioDefault1">
+            <div class="radio-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                    <label class="form-check-label" for="radioDefault1">
                         Peinados
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
-                <label class="form-check-label" for="radioDefault2">
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2">
+                    <label class="form-check-label" for="radioDefault2">
                         Maquillaje de Boda
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
-                <label class="form-check-label" for="radioDefault2">
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault3">
+                    <label class="form-check-label" for="radioDefault3">
                         Maquillaje de Noche
-                </label>
+                    </label>
+                </div>
             </div>
 
             <div class="col-md-6">
@@ -122,26 +95,27 @@
             <div class="col-md-4">
                 <label for="inputState" class="form-label">Localidad</label>
                 <select id="inputState" class="form-select">
-            <option selected>Opciones</option>
-            <option>Estado de Mexico</option>
-            <option>Ciudad de Mexico</option>
-          </select>
+                    <option selected>Opciones</option>
+                    <option>Estado de Mexico</option>
+                    <option>Ciudad de Mexico</option>
+                </select>
             </div>
             <div class="col-md-2">
                 <label for="inputZip" class="form-label">CP</label>
                 <input type="text" class="form-control" id="inputZip">
             </div>
-            <div class="p-3 m-0 border-0 bd-example m-0 border-0">
-                <label for="inputCity" class="form-label">Comentarios</label>
+            <div class="col-12">
+                <label for="floatingTextarea2" class="form-label">Comentarios</label>
                 <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+                    <textarea class="form-control" placeholder="Deja un comentario aquí" id="floatingTextarea2" style="height: 150px"></textarea>
                 </div>
             </div>
 
-            <div class="col-12">
+            <div class="col-12 text-center">
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
-    </form>
+        </form>
+    </div>
 
     <footer>
         <p id="derechos">Contacto: info@ventadeautos.com</p>

@@ -16,7 +16,9 @@
 
 <body>
     <header>
-        <div align="center"><img href="index.html" id="imglog" src="../img/logop.jpg"></div>
+        <div align="center">
+            <a href="../index.html"><img id="imglog" src="../img/logop.jpg"></a>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-padding-x-100px">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,29 +52,37 @@
         <h1 align="center">Servicios</h1><br>
     </header>
     <p>En Luxe Beauty Studio, ofrecemos una variedad de servicios de belleza para satisfacer las necesidades de cada clienta.</p><br><br>
-    <div class="card-group">
-        <div class="card">
-            <img src="../img/gal-9.JPG" class="card-img-top h-50" alt="img">
-            <div class="card-body">
-                <h5 class="card-title">Maquillaje profesional</h5>
-                <p class="card-text">Para todo tipo de eventos (Técnicas tradicionales, 3D, y aerografía)</p>
-
+    <div class="container">
+        <div class="row">
+            <!-- En pantallas medianas y grandes: 3 columnas | En pantallas pequeñas: 1 columna -->
+            <div class="col-md-4 col-12 custom-card-column">
+                <div class="card">
+                    <img src="../img/gal-9.JPG" class="card-img-top" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Maquillaje Profesional</h5>
+                        <p class="card-text">Para todo tipo de eventos (Técnicas tradicionales, 3D, y aerografía)</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img src="../img/gal-10.JPG" class="card-img-top h-50" alt="img">
-            <div class="card-body">
-                <h5 class="card-title">Eventos Principales</h5>
-                <p class="card-text">Nopciales, XV años, Graduaciones, Sociales</p>
 
+            <div class="col-md-4 col-12 custom-card-column">
+                <div class="card">
+                    <img src="../img/gal-10.JPG" class="card-img-top" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Eventos Principales</h5>
+                        <p class="card-text">Nupciales, XV años, Graduaciones, Sociales</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img src="../img/gal-12.JPG" class="card-img-top h-50" alt="img">
-            <div class="card-body">
-                <h5 class="card-title">Peinados</h5>
-                <p class="card-text">Ofrecemos peinados profesionales para todo tipo de ocasión, desde eventos formales hasta looks casuales, utilizando técnicas modernas y productos de calidad.</p>
 
+            <div class="col-md-4 col-12 custom-card-column">
+                <div class="card">
+                    <img src="../img/gal-12.JPG" class="card-img-top" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Peinados</h5>
+                        <p class="card-text">Ofrecemos peinados profesionales para todo tipo de ocasión, desde eventos formales hasta looks casuales.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

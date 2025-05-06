@@ -1,0 +1,64 @@
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Ajustes para las tarjetas */
+
+.card {
+    height: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #E6A0BA;
+}
+
+.card-img-top {
+    object-fit: cover;
+    transform: translate( 0px, 0px);
+    height: 220px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.radio-group {
+    margin: 20px 0;
+}
+
+
+/* Botón de envío */
+
+.btn-primary {
+    margin-top: 20px;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
